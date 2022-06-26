@@ -1,0 +1,14 @@
+if (Obsessive thinking <= 0.5) and (Total length of any gaps in my resume in months. <= 42.0) and (Panic attacks <= 0.5) then class: 0 (proba: 100.0%) | based on 134 samples
+
+if (Obsessive thinking > 0.5) and (Mood swings <= 0.5) and (Region > 1.5) then class: 0 (proba: 71.43%) | based on 14 samples
+
+if (Obsessive thinking <= 0.5) and (Total length of any gaps in my resume in months. > 42.0) and (I am on section 8 housing <= 0.5) then class: 0 (proba: 90.0%) | based on 10 samples
+
+if (Obsessive thinking <= 0.5) and (Total length of any gaps in my resume in months. <= 42.0) and (Panic attacks > 0.5) then class: 0 (proba: 88.89%) | based on 9 samples
+
+if (Obsessive thinking > 0.5) and (Mood swings > 0.5) then class: 1 (proba: 100.0%) | based on 6 samples
+
+if (Obsessive thinking > 0.5) and (Mood swings <= 0.5) and (Region <= 1.5) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (Obsessive thinking <= 0.5) and (Total length of any gaps in my resume in months. > 42.0) and (I am on section 8 housing > 0.5) then class: 1 (proba: 100.0%) | based on 1 samples
+

@@ -1,0 +1,13 @@
+Model Performance
+ Accuracy Score on validation set: 100.0%Accuracy Score on train set: 77.0213%F1 Score on train set: 0.4375F1 Score on validation set: 1.0
+--------------------
+
+Estimator:
+StackingClassifier(estimators=[('lgbm',
+                                <flaml.model.LGBMEstimator object at 0x000001648343B430>),
+                               ('rf',
+                                <flaml.model.RandomForestEstimator object at 0x00000164832E6430>)],
+                   final_estimator=<flaml.model.LGBMEstimator object at 0x0000016482421BB0>,
+                   n_jobs=-1, passthrough=True)
+--------------------
+

@@ -1,0 +1,30 @@
+feature,weight
+intercept,-2.235567781397936
+I am currently employed at least part-time,0.014384058607859462
+I identify as having a mental illness,1.883289399148825
+Education,0.31324330901625186
+I have my own computer separate from a smart phone,-0.2728339554235455
+I have been hospitalized before for my mental illness,-0.27649745004744564
+How many days were you hospitalized for your mental illness,0.3540316978464876
+I am legally disabled,0.036480814425567894
+I have my regular access to the internet,-0.19403246098908059
+I live with my parents,0.12156467612489563
+I have a gap in my resume,-0.30540295266461315
+Total length of any gaps in my resume in months.,-0.019634596807386905
+Annual income (including any social welfare programs) in USD,0.24733274120500415
+I am unemployed,0.08718085892660983
+I read outside of work and school,0.10548011536627572
+Annual income from social welfare programs,-0.0858353356278702
+I receive food stamps,-0.13635071444825
+I am on section 8 housing,0.7283291903139248
+How many times were you hospitalized for your mental illness,-1.017835651933598
+Lack of concentration,0.9098538974787999
+Obsessive thinking,1.591993922986001
+Mood swings,0.5673102327550817
+Panic attacks,1.6078021463214744
+Tiredness,-0.23855050993646204
+Age,-0.6986567389287486
+Gender,-0.36093188545982524
+Household Income,0.0909826363863001
+Region,0.07591011314593589
+Device Type,-0.21386680536832448

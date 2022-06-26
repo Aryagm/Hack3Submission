@@ -1,0 +1,29 @@
+feature,mean_importance
+How many times were you hospitalized for your mental illness,-0.1335199717676576
+Age,-0.011614178610917358
+I have my own computer separate from a smart phone,-0.008831558621739465
+Panic attacks,-0.008229753489162972
+I identify as having a mental illness,-0.004224025028184764
+I have a gap in my resume,-0.004121687437167176
+Lack of concentration,-0.0038546495608126285
+I have been hospitalized before for my mental illness,-0.0009409455687140022
+Education,-0.0007280545098856894
+I live with my parents,-0.0004726849329502847
+Gender,0.00012729499865649085
+Device Type,0.0004767252855728543
+Annual income from social welfare programs,0.00049764401447987
+Tiredness,0.0010601614951696314
+Household Income,0.0013102697531144902
+How many days were you hospitalized for your mental illness,0.0014708875670270348
+Region,0.0015215586068963115
+I have my regular access to the internet,0.0018071729672202719
+Mood swings,0.002311775972478891
+I am legally disabled,0.002421118573191361
+I receive food stamps,0.0036353161333954943
+I am on section 8 housing,0.003882971024651083
+I am currently employed at least part-time,0.004103817100544338
+I am unemployed,0.005248191083309794
+I read outside of work and school,0.005791820464831654
+Annual income (including any social welfare programs) in USD,0.012280841215400795
+Obsessive thinking,0.016803450695929
+Total length of any gaps in my resume in months.,0.030859842752909226

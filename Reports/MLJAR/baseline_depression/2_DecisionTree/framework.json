@@ -1,0 +1,189 @@
+{
+    "uid": "da25b7de-c81e-48a9-9e64-4366dc41f419",
+    "name": "2_DecisionTree",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "Education": {
+                            "Completed Masters": 0,
+                            "Completed Phd": 1,
+                            "Completed Undergraduate": 2,
+                            "High School or GED": 3,
+                            "Some Phd": 4,
+                            "Some Undergraduate": 5,
+                            "Some highschool": 6,
+                            "Some\u00a0Masters": 7
+                        },
+                        "Age": {
+                            "18-29": 0,
+                            "30-44": 1,
+                            "45-60": 2,
+                            "> 60": 3
+                        },
+                        "Gender": {
+                            "Female": 0,
+                            "Male": 1
+                        },
+                        "Household Income": {
+                            "$0-$9,999": 0,
+                            "$10,000-$24,999": 1,
+                            "$100,000-$124,999": 2,
+                            "$125,000-$149,999": 3,
+                            "$150,000-$174,999": 4,
+                            "$175,000-$199,999": 5,
+                            "$200,000+": 6,
+                            "$25,000-$49,999": 7,
+                            "$50,000-$74,999": 8,
+                            "$75,000-$99,999": 9,
+                            "Prefer not to answer": 10
+                        },
+                        "Region": {
+                            "East North Central": 0,
+                            "East South Central": 1,
+                            "Middle Atlantic": 2,
+                            "Mountain": 3,
+                            "New England": 4,
+                            "Pacific": 5,
+                            "South Atlantic": 6,
+                            "West North Central": 7,
+                            "West South Central": 8
+                        },
+                        "Device Type": {
+                            "Android Phone / Tablet": 0,
+                            "MacOS Desktop / Laptop": 1,
+                            "Windows Desktop / Laptop": 2,
+                            "iOS Phone / Tablet": 3
+                        }
+                    },
+                    "columns": [
+                        "Education",
+                        "Age",
+                        "Gender",
+                        "Household Income",
+                        "Region",
+                        "Device Type"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Education": [
+                        "categorical_to_int"
+                    ],
+                    "Age": [
+                        "categorical_to_int"
+                    ],
+                    "Gender": [
+                        "categorical_to_int"
+                    ],
+                    "Household Income": [
+                        "categorical_to_int"
+                    ],
+                    "Region": [
+                        "categorical_to_int"
+                    ],
+                    "Device Type": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "Decision Tree",
+            "algorithm_short_name": "Decision Tree",
+            "uid": "1615aa91-da2e-441d-8b64-25b89cb217b1",
+            "params": {
+                "model_type": "Decision Tree",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "criterion": "gini",
+                "max_depth": 3,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 1,
+            "train_cant_improve_limit": 0,
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Education": [
+                    "categorical_to_int"
+                ],
+                "Age": [
+                    "categorical_to_int"
+                ],
+                "Gender": [
+                    "categorical_to_int"
+                ],
+                "Household Income": [
+                    "categorical_to_int"
+                ],
+                "Region": [
+                    "categorical_to_int"
+                ],
+                "Device Type": [
+                    "categorical_to_int"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "../Reports/MLJAR/baseline_depression\\X.data",
+            "y_path": "../Reports/MLJAR/baseline_depression\\y.data",
+            "results_path": "../Reports/MLJAR/baseline_depression"
+        },
+        "learner": {
+            "model_type": "Decision Tree",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "criterion": "gini",
+            "max_depth": 3,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "2_DecisionTree",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "2_DecisionTree\\learner_fold_0.decision_tree"
+    ],
+    "predictions_fname": "2_DecisionTree\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.4343834313399109,
+    "train_time": 45.53226900100708,
+    "is_stacked": false,
+    "threshold": 0.10507246376811594
+}

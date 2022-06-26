@@ -1,0 +1,325 @@
+{
+    "uid": "401afc45-5876-40ec-9294-ace544568a82",
+    "name": "3_Linear",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "Education": {
+                            "Completed Masters": 0,
+                            "Completed Phd": 1,
+                            "Completed Undergraduate": 2,
+                            "High School or GED": 3,
+                            "Some Phd": 4,
+                            "Some Undergraduate": 5,
+                            "Some highschool": 6,
+                            "Some\u00a0Masters": 7
+                        },
+                        "Age": {
+                            "18-29": 0,
+                            "30-44": 1,
+                            "45-60": 2,
+                            "> 60": 3
+                        },
+                        "Gender": {
+                            "Female": 0,
+                            "Male": 1
+                        },
+                        "Household Income": {
+                            "$0-$9,999": 0,
+                            "$10,000-$24,999": 1,
+                            "$100,000-$124,999": 2,
+                            "$125,000-$149,999": 3,
+                            "$150,000-$174,999": 4,
+                            "$175,000-$199,999": 5,
+                            "$200,000+": 6,
+                            "$25,000-$49,999": 7,
+                            "$50,000-$74,999": 8,
+                            "$75,000-$99,999": 9,
+                            "Prefer not to answer": 10
+                        },
+                        "Region": {
+                            "East North Central": 0,
+                            "East South Central": 1,
+                            "Middle Atlantic": 2,
+                            "Mountain": 3,
+                            "New England": 4,
+                            "Pacific": 5,
+                            "South Atlantic": 6,
+                            "West North Central": 7,
+                            "West South Central": 8
+                        },
+                        "Device Type": {
+                            "Android Phone / Tablet": 0,
+                            "MacOS Desktop / Laptop": 1,
+                            "Other": 2,
+                            "Windows Desktop / Laptop": 3,
+                            "iOS Phone / Tablet": 4
+                        }
+                    },
+                    "columns": [
+                        "Education",
+                        "Age",
+                        "Gender",
+                        "Household Income",
+                        "Region",
+                        "Device Type"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.46577048936179993,
+                        1.9344901307878781,
+                        0.3173690919038396,
+                        15.127334872031442,
+                        0.1661385399683346,
+                        23.806001152176695,
+                        31.82030837049491,
+                        0.33071891388307384,
+                        12.248659850374052,
+                        6.4479775122075225,
+                        1.0292563059745758,
+                        0.49970936801238663,
+                        3.2478089801414742,
+                        2.5671759896788284,
+                        1.5909801120511058
+                    ],
+                    "mean": [
+                        0.6818181818181818,
+                        2.7954545454545454,
+                        0.8863636363636364,
+                        4.068181818181818,
+                        0.9715909090909091,
+                        10.914772727272727,
+                        40.95454545454545,
+                        0.875,
+                        3.335227272727273,
+                        1.1420454545454546,
+                        1.6420454545454546,
+                        0.48295454545454547,
+                        5.880681818181818,
+                        3.977272727272727,
+                        2.2556818181818183
+                    ],
+                    "var": [
+                        0.2169421487603306,
+                        3.742252066115702,
+                        0.10072314049586778,
+                        228.8362603305785,
+                        0.02760201446280992,
+                        566.7256908574382,
+                        1012.5320247933884,
+                        0.109375,
+                        150.0296681301653,
+                        41.576413997933905,
+                        1.0593685433884297,
+                        0.24970945247933887,
+                        10.548263171487603,
+                        6.590392561983472,
+                        2.531217716942149
+                    ],
+                    "n_samples_seen": 176,
+                    "n_features_in": 15,
+                    "columns": [
+                        "I am currently employed at least part-time",
+                        "Education",
+                        "I have my own computer separate from a smart phone",
+                        "How many days were you hospitalized for your mental illness",
+                        "I have my regular access to the internet",
+                        "Total length of any gaps in my resume in\u00a0months.",
+                        "Annual income (including any social welfare programs) in USD",
+                        "I read outside of work and school",
+                        "Annual income from social welfare programs",
+                        "How many times were you hospitalized for your mental illness",
+                        "Age",
+                        "Gender",
+                        "Household Income",
+                        "Region",
+                        "Device Type"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "I am currently employed at least part-time": [
+                        "scale_normal"
+                    ],
+                    "Education": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "I have my own computer separate from a smart phone": [
+                        "scale_normal"
+                    ],
+                    "How many days were you hospitalized for your mental illness": [
+                        "scale_normal"
+                    ],
+                    "I have my regular access to the internet": [
+                        "scale_normal"
+                    ],
+                    "Total length of any gaps in my resume in\u00a0months.": [
+                        "scale_normal"
+                    ],
+                    "Annual income (including any social welfare programs) in USD": [
+                        "scale_normal"
+                    ],
+                    "I read outside of work and school": [
+                        "scale_normal"
+                    ],
+                    "Annual income from social welfare programs": [
+                        "scale_normal"
+                    ],
+                    "How many times were you hospitalized for your mental illness": [
+                        "scale_normal"
+                    ],
+                    "Age": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Gender": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Household Income": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Region": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Device Type": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "30b65003-d797-4c66-8e59-515ce0e3f5b2",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "I am currently employed at least part-time": [
+                    "scale_normal"
+                ],
+                "Education": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "I have my own computer separate from a smart phone": [
+                    "scale_normal"
+                ],
+                "How many days were you hospitalized for your mental illness": [
+                    "scale_normal"
+                ],
+                "I have my regular access to the internet": [
+                    "scale_normal"
+                ],
+                "Total length of any gaps in my resume in\u00a0months.": [
+                    "scale_normal"
+                ],
+                "Annual income (including any social welfare programs) in USD": [
+                    "scale_normal"
+                ],
+                "I read outside of work and school": [
+                    "scale_normal"
+                ],
+                "Annual income from social welfare programs": [
+                    "scale_normal"
+                ],
+                "How many times were you hospitalized for your mental illness": [
+                    "scale_normal"
+                ],
+                "Age": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Gender": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Household Income": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Region": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Device Type": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "../Reports/MLJAR/baseline_anxiety\\X.data",
+            "y_path": "../Reports/MLJAR/baseline_anxiety\\y.data",
+            "results_path": "../Reports/MLJAR/baseline_anxiety"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "3_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "3_Linear\\learner_fold_0.linear"
+    ],
+    "predictions_fname": "3_Linear\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.4354784155693483,
+    "train_time": 16.90248703956604,
+    "is_stacked": false,
+    "threshold": 0.5479483915506387
+}

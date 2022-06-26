@@ -1,0 +1,105 @@
+{
+    "columns": [
+        "I am currently employed at least part-time",
+        "I identify as having a mental illness",
+        "Education",
+        "I have my own computer separate from a smart phone",
+        "I have been hospitalized before for my mental illness",
+        "How many days were you hospitalized for your mental illness",
+        "I am legally disabled",
+        "I have my regular access to the internet",
+        "I live with my parents",
+        "I have a gap in my resume",
+        "Total length of any gaps in my resume in\u00a0months.",
+        "Annual income (including any social welfare programs) in USD",
+        "I am unemployed",
+        "I read outside of work and school",
+        "Annual income from social welfare programs",
+        "I receive food stamps",
+        "I am on section 8 housing",
+        "How many times were you hospitalized for your mental illness",
+        "Lack of concentration",
+        "Obsessive thinking",
+        "Mood swings",
+        "Panic attacks",
+        "Tiredness",
+        "Age",
+        "Gender",
+        "Household Income",
+        "Region",
+        "Device Type"
+    ],
+    "rows": 235,
+    "cols": 28,
+    "target_is_numeric": true,
+    "columns_info": {
+        "I am currently employed at least part-time": [
+            "scale"
+        ],
+        "I identify as having a mental illness": [],
+        "Education": [
+            "categorical",
+            "few_categories"
+        ],
+        "I have my own computer separate from a smart phone": [
+            "scale"
+        ],
+        "I have been hospitalized before for my mental illness": [],
+        "How many days were you hospitalized for your mental illness": [
+            "scale"
+        ],
+        "I am legally disabled": [],
+        "I have my regular access to the internet": [
+            "scale"
+        ],
+        "I live with my parents": [],
+        "I have a gap in my resume": [],
+        "Total length of any gaps in my resume in\u00a0months.": [
+            "scale"
+        ],
+        "Annual income (including any social welfare programs) in USD": [
+            "scale"
+        ],
+        "I am unemployed": [],
+        "I read outside of work and school": [
+            "scale"
+        ],
+        "Annual income from social welfare programs": [
+            "scale"
+        ],
+        "I receive food stamps": [],
+        "I am on section 8 housing": [],
+        "How many times were you hospitalized for your mental illness": [
+            "scale"
+        ],
+        "Lack of concentration": [],
+        "Obsessive thinking": [],
+        "Mood swings": [],
+        "Panic attacks": [],
+        "Tiredness": [],
+        "Age": [
+            "categorical",
+            "few_categories"
+        ],
+        "Gender": [
+            "categorical",
+            "few_categories"
+        ],
+        "Household Income": [
+            "categorical",
+            "few_categories"
+        ],
+        "Region": [
+            "categorical",
+            "few_categories"
+        ],
+        "Device Type": [
+            "categorical",
+            "few_categories"
+        ]
+    },
+    "target_info": [],
+    "n_features": 28,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

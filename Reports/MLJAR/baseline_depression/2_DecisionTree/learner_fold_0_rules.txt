@@ -1,0 +1,14 @@
+if (I identify as having a mental illness <= 0.5) and (Obsessive thinking <= 0.5) and (Mood swings <= 0.5) then class: 0 (proba: 95.65%) | based on 115 samples
+
+if (I identify as having a mental illness > 0.5) and (I am on section 8 housing <= 0.5) and (Household Income <= 6.5) then class: 1 (proba: 96.15%) | based on 26 samples
+
+if (I identify as having a mental illness > 0.5) and (I am on section 8 housing <= 0.5) and (Household Income > 6.5) then class: 1 (proba: 61.9%) | based on 21 samples
+
+if (I identify as having a mental illness <= 0.5) and (Obsessive thinking > 0.5) and (Lack of concentration <= 0.5) then class: 0 (proba: 83.33%) | based on 6 samples
+
+if (I identify as having a mental illness <= 0.5) and (Obsessive thinking > 0.5) and (Lack of concentration > 0.5) then class: 1 (proba: 100.0%) | based on 3 samples
+
+if (I identify as having a mental illness <= 0.5) and (Obsessive thinking <= 0.5) and (Mood swings > 0.5) then class: 1 (proba: 66.67%) | based on 3 samples
+
+if (I identify as having a mental illness > 0.5) and (I am on section 8 housing > 0.5) then class: 0 (proba: 100.0%) | based on 2 samples
+

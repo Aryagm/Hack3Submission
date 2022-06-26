@@ -1,0 +1,29 @@
+feature,shap_importance
+I identify as having a mental illness,1.5405233
+Household Income,0.46358877
+Total length of any gaps in my resume in months.,0.4427238
+Tiredness,0.42716455
+Lack of concentration,0.3797569
+Panic attacks,0.35146573
+Age,0.2908498
+Region,0.28105712
+Annual income (including any social welfare programs) in USD,0.17393862
+Obsessive thinking,0.16752739
+Education,0.16410744
+Gender,0.14973323
+Device Type,0.07564627
+I am unemployed,0.07126064
+How many times were you hospitalized for your mental illness,0.054648932
+How many days were you hospitalized for your mental illness,0.04181417
+Annual income from social welfare programs,0.03816494
+I am currently employed at least part-time,0.034062073
+I live with my parents,0.029799672
+I have a gap in my resume,0.02171274
+Mood swings,0.018998243
+I am legally disabled,0.0076136636
+I am on section 8 housing,0.0
+I receive food stamps,0.0
+I read outside of work and school,0.0
+I have my regular access to the internet,0.0
+I have been hospitalized before for my mental illness,0.0
+I have my own computer separate from a smart phone,0.0

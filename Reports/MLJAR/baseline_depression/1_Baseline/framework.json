@@ -1,0 +1,80 @@
+{
+    "uid": "fc14026b-c915-40e8-b093-1a2b0a126f87",
+    "name": "1_Baseline",
+    "preprocessing": [
+        {
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "Baseline Classifier",
+            "algorithm_short_name": "Baseline",
+            "uid": "662b072a-16e1-4773-8bcf-aefbbe0c56fc",
+            "params": {
+                "model_type": "Baseline",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "../Reports/MLJAR/baseline_depression\\X.data",
+            "y_path": "../Reports/MLJAR/baseline_depression\\y.data",
+            "results_path": "../Reports/MLJAR/baseline_depression"
+        },
+        "learner": {
+            "model_type": "Baseline",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "1_Baseline",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "1_Baseline\\learner_fold_0.baseline"
+    ],
+    "predictions_fname": "1_Baseline\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.5845658681315509,
+    "train_time": 1.1760773658752441,
+    "is_stacked": false,
+    "threshold": 0.2505681818181818
+}

@@ -1,0 +1,29 @@
+feature,mean_importance
+I have my regular access to the internet,-0.009231830346757331
+I have my own computer separate from a smart phone,-0.004813553695220763
+Device Type,-0.0033854562796453713
+Lack of concentration,-0.0017202243689876328
+Household Income,-0.001355968867733881
+Gender,-0.00020540627726022275
+I have been hospitalized before for my mental illness,0.0
+I live with my parents,0.0
+Region,0.0
+I am unemployed,0.0
+I receive food stamps,1.1102230246251566e-17
+I am currently employed at least part-time,1.1102230246251566e-17
+I have a gap in my resume,2.2204460492503132e-17
+I am legally disabled,2.2204460492503132e-17
+I read outside of work and school,2.2204460492503132e-17
+Tiredness,3.3306690738754695e-17
+How many times were you hospitalized for your mental illness,0.0003496207129217055
+Annual income from social welfare programs,0.0009808476096569874
+How many days were you hospitalized for your mental illness,0.0015527100403605054
+Education,0.004366029264476945
+Annual income (including any social welfare programs) in USD,0.004473248191796242
+Age,0.005193118970018962
+Obsessive thinking,0.007240768642590467
+Total length of any gaps in my resume in months.,0.019803625706780858
+I am on section 8 housing,0.030367721478255106
+Mood swings,0.03982438212982046
+Panic attacks,0.11475786298331023
+I identify as having a mental illness,0.14120196344168257
