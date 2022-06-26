@@ -1,4 +1,4 @@
-# AutoML Leaderboard
+# Leaderboard
 
 | Best model   | name                                                         | model_type     | metric_type   |   metric_value |   train_time |
 |:-------------|:-------------------------------------------------------------|:---------------|:--------------|---------------:|-------------:|
@@ -10,10 +10,10 @@
 |              | [6_Default_RandomForest](6_Default_RandomForest/README.md)   | Random Forest  | logloss       |       0.383637 |         9    |
 | **the best** | [Ensemble](Ensemble/README.md)                               | Ensemble       | logloss       |       0.38197  |         2.27 |
 
-### AutoML Performance
+### Performance
 ![AutoML Performance](ldb_performance.png)
 
-### AutoML Performance Boxplot
+### Performance Boxplot
 ![AutoML Performance Boxplot](ldb_performance_boxplot.png)
 
 ### Features Importance
