@@ -22,7 +22,7 @@ If you’re feeling under the weather, you’re likely to stay home. However, wo
 
 <br/>
 
-HYBO or Helping You Be Okay, simplifies the steps you need to take to improve your mental health. Oftentimes, individuals struggle with seeking help as they are unsure where to start or even if they need treatment. This is where HYBO will help. Segway into our solution. HYBO provides a quick survey for users to identify their likelihood of having a mental illness. But unlike other apps and tools to help individuals with mental health issues, HYBO prioritizes the users’ boundaries. To help the user feel comfortable and be more honest with the information they share, our survey does not directly ask the user about their feelings, emotions, or behaviours- rather, general, surface-level questions about their lifestyle. 
+HYBO or Helping You Be Okay, simplifies the steps you need to take to improve your mental health. Oftentimes, individuals struggle with seeking help as they are unsure where to start or even if they need treatment. This is where HYBO will help. HYBO provides a quick survey for users to identify their likelihood of having a mental illness. But unlike other apps and tools to help individuals with mental health issues, HYBO prioritizes the users’ boundaries. To help the user feel comfortable and be more honest with the information they share, our survey does not directly ask the user about their feelings, emotions, or behaviours- rather, general, surface-level questions about their lifestyle. 
 
 ![](https://cdn.discordapp.com/attachments/889980120461361225/990624114186276935/unknown.png)
 
